@@ -1,0 +1,203 @@
+html
+{
+	font-family: sans-serif;
+  	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+}
+
+body
+{
+	margin: 0;
+}
+
+.overlay
+{
+
+}
+
+.fixedMenu
+{
+    
+
+}
+
+#nav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: fixed;
+    width: 100%;
+    display: table;
+}
+
+#nav li 
+{
+    display: table-cell;
+   	float: center;
+}
+
+#nav li a 
+{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+
+#nav li a:hover:not(.active) 
+{
+    background-color: #ddd;
+}
+
+#nav li a.active 
+{
+    color: white;
+    background-color: #4CAF50;
+}
+
+header 
+{
+    background: url('https://unsplash.it/3000/2000?image=685') ;
+    /*background: url('images/header.jpg') no-repeat center ;*/
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 56px;
+    max-height: 900px;
+}
+
+header p,
+header div,
+{
+	color: white;
+}
+
+.jumbotron
+{
+	color: #FFFFFF;
+    margin-bottom: 3%;
+}
+
+.title
+{
+	text-align: center;
+	margin: auto;
+	width: 360px;
+	height: 100px;
+	background-color: transparent;
+	border-radius: 3px;
+	margin-top: 80px;
+
+}
+
+h1
+{
+	color: black;
+	font-size: 2em;
+  	margin: 0.67em 0;
+}
+
+small
+{
+	font-size: 45px;
+	text-align: center;
+}
+
+strong
+{
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+p
+{
+
+}
+
+#description
+{
+	text-align: center;
+	margin-top: 430px;
+	font-size: 30px;
+}
+
+.buttonBar
+{
+	text-align: center;
+}
+
+button
+{
+	border: none;
+	padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+#contact
+{
+	background-color: #4CAF50;
+}
+
+#contact:hover
+{
+	background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+#resume
+{
+	background-color: #008CBA;
+}
+
+
+#aboutMe
+{
+	position: static;
+	border: none;
+	/*width: 100vw;*/
+	height: 400px;
+	background-color: #d5e1e2;
+	text-align: center;	
+}
+
+#aboutMe h4
+{
+	padding-top: 18px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 18px;
+}
+
+.img-circle
+{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 3px solid white;
+
+}
+
+
